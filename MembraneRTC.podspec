@@ -8,14 +8,12 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MembraneRTC'
-  s.version          = '5.1.2'
   s.summary          = 'Membrane WebRTC client fully compatible with `Membrane RTC Engine` for iOS.'
-
   s.homepage         = 'https://github.com/membraneframework/membrane-webrtc-ios'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Software Mansion' => 'https://swmansion.com' }
-  s.source           = { :git => 'https://github.com/membraneframework/membrane-webrtc-ios.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/incubo4u/membrane-webrtc-ios.git', :branch => 'master' }
 
   s.ios.deployment_target = '13.0'
   s.swift_version = '5.0'

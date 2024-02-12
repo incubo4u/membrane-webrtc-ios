@@ -1,4 +1,4 @@
-import WebRTC
+import WebRTCMembraneFramework
 import XCTest
 
 @testable import MembraneRTC

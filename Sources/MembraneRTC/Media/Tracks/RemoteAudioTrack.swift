@@ -22,7 +22,7 @@ public class RemoteAudioTrack: AudioTrack, RemoteTrack {
     public func setVolume(_ volume: Double) {
         guard volume >= 0.0, volume <= 1.0 else { return }
 
-        // from WebRTC internal documentation this volume is in range 0-10 so just multiply it
+        // from WebRTCMembraneFramework internal documentation this volume is in range 0-10 so just multiply it
         track.source.volume = volume * 10.0
     }
 

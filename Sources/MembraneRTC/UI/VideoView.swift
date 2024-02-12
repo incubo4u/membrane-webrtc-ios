@@ -193,7 +193,7 @@ extension VideoView: RTCVideoViewDelegate {
         guard let width = Int32(exactly: size.width),
             let height = Int32(exactly: size.height)
         else {
-            // CGSize is used by WebRTC but this should always be an integer
+            // CGSize is used by WebRTCMembraneFramework but this should always be an integer
             sdkLogger.error("VideoView: size width/height is not an integer")
             return
         }

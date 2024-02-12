@@ -21,10 +21,10 @@
       },
       {
         "package": "WebRTC",
-        "repositoryURL": "https://github.com/webrtc-sdk/Specs.git",
+        "repositoryURL": "https://github.com/incubo4u/Specs.git",
         "state": {
           "branch": null,
-          "revision": "aaef003e42a5ec34c3ff44abc6c352d18e39a278",
+          "revision": "12b4db3a8ba9f45fbb768cca48ff317959e7c986",
           "version": "104.5112.15"
         }
       },
